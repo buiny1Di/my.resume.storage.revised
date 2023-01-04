@@ -9,6 +9,7 @@ public class Loader {
     private final static ResumeStorage ARRAY_STORAGE = new ResumeStorage();
     private static  long TIMEOUT;
 
+    
 
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
